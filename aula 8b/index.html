@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+    <style>
+        body {
+            background-color: bisque;
+            color: black;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        code, pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            font-family: Consolas, "Courier New", monospace;
+        }
+        blockquote {
+            border-left: 5px solid #ccc;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+            color: #555;
+            font-style: italic;
+            background-color: #f9f9f9;
+        }
+        abbr[title] {
+            border-bottom: 1px dotted #000;
+            cursor: help;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Outras Formatações</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Código-fonte</h2>
+            <p>O comando <code>Console.WriteLine("\nFrequência dos nomes:");</code></p>
+            <pre>
+                <code>
+plt.figure(figsize=(10, 5))
+plt.bar(labels, values, color='skyblue')
+plt.xlabel('Palavras')
+plt.ylabel('Frequência')
+plt.title('Frequência de Palavras')
+plt.xticks(rotation=45)
+plt.tight_layout()
+                </code>
+            </pre>
+        </section>
+        <section>
+            <h2>Citações simples</h2>
+            <p><q>Não é a força, mas a perseverança, que realiza grandes coisas.</q> — Samuel Johnson</p>
+        </section>
+        <section>
+            <h2>Citações completas</h2>
+            <p>Segundo, William Pereira Alves em seu livro:</p>
+            <blockquote cite="https://www.google.com.br/books/edition/HTML_CSS_Aprenda_como_construir_p%C3%A1ginas/_fJPEAAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+                O mercado web tem se mostrado promissor, o que exige do profissional interessado na área se aperfeiçoar...
+            </blockquote>
+            <p>Fonte: <a href="https://www.google.com.br/books/edition/HTML_CSS_Aprenda_como_construir_p%C3%A1ginas/_fJPEAAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover" target="_blank">HTML & CSS: Aprenda como construir páginas</a></p>
+        </section>
+        <section>
+            <h2>Abreviações</h2>
+            <p>Estou aprendendo <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Styles Sheets">CSS</abbr> para ficar excelente.</p>
+        </section>
+    </main>
+</body>
+</html>

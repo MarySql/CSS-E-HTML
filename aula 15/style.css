@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: #373737;
+    font-family: 'Trebuchet MS';
+}
+h1{
+    color: #8db986;
+    background-color: #efeae4;
+
+}
+h2{
+    color: #8db986;
+    background-color: #efeae4;
+}
+p{
+    color: #badb73;
+    text-align: justify;
+}
