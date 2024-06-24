@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+
+        thead {
+            background-color: lightgreen;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        tfoot {
+            background-color: lightgreen;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightgreen;
+        }
+
+        tbody>tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
+
+        /* even > par
+        odd > impar */
+    </style>
+</head>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+    ANATOMIA PARA TABELAS GRANDES
+    TABLE
+          THEAD 
+            TR, TD, TH
+          TBODY
+            TR, TD, TH
+          TFOOT
+            TR, TD, TH
+         TH > título
+         TD > dado      
+         IMPORTANTE FAZER O SCOPE PARA O NAVEGADOR IDENTIFICAR SEMÂNTICAMENTE -->
+    <table>
+        <caption>Populações que mais se masturbam</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row"> total de habitantes</th>
+            <td class="num">0000</td>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem natus optio ut maiores officia eius, earum sint dolor incidunt blanditiis excepturi fuga eveniet quisquam, sequi esse nihil voluptatum et cumque inventore asperiores veritatis molestiae rerum deleniti! Labore necessitatibus nam praesentium deserunt assumenda quasi magni non iure, veritatis dolorem provident, velit molestiae sapiente facilis laborum voluptate vel alias saepe doloribus voluptatum veniam nulla placeat! Quia sint harum sunt unde officiis! Praesentium officia voluptates nulla omnis amet asperiores aspernatur, at hic aut itaque repudiandae, enim adipisci nostrum perferendis! Ex perspiciatis quis voluptas vitae. Asperiores repellat sequi laudantium quia consequatur voluptas facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam in dolore voluptates. Temporibus nulla, blanditiis delectus rerum et eveniet provident magnam ipsam eos cumque quo impedit sit adipisci tempore ratione vitae officia ducimus ipsa amet, illum debitis. Nam dolorem delectus explicabo atque? In doloribus rerum provident sunt facere, facilis sed! Laborum itaque quia commodi dolorum libero repudiandae odit excepturi eius molestias quaerat temporibus ut quam est magnam, tenetur sit possimus beatae optio delectus dolorem ratione accusamus obcaecati! Quod, eligendi dignissimos. Tempore, deserunt vitae eveniet reprehenderit illo porro tempora libero! Debitis architecto saepe suscipit, alias temporibus amet, voluptatum necessitatibus maxime voluptas pariatur eveniet ipsam repellendus soluta illum obcaecati? Omnis nulla, quasi aperiam et libero impedit harum totam doloremque eaque? Sunt quibusdam laudantium eius excepturi quidem veritatis? Quis sequi eius, quas necessitatibus perspiciatis quaerat id mollitia exercitationem labore numquam nobis voluptatem velit rerum praesentium architecto quos, blanditiis, pariatur debitis delectus est dolorum adipisci sint excepturi officia. Odit eligendi sit facere asperiores dolores cum eius porro animi possimus exercitationem ducimus dicta, praesentium aliquid dolore necessitatibus temporibus quasi quibusdam harum aspernatur. Esse voluptatem veritatis minus soluta itaque illum hic nobis temporibus recusandae quod, obcaecati dolorum unde vero, doloribus accusamus quisquam at quam, beatae praesentium!</p>
+</body>
+
+
+</html>
